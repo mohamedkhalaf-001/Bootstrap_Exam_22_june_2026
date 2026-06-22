@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="images/house.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/index.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navId">
@@ -37,8 +37,9 @@
                                 Properties
                                 <i class="fas fa-chevron-down ml-2 fa-xs special-chevron"></i>
                             </a>
-                            <ul class="dropdown-menu mega-menu-80 custom-scrollbar-menu">
-                                <div class="container">
+                            <ul class="dropdown-menu mega-menu-80 custom-scrollbar-menu" data-bs-popper="static">
+                                <li class="mega-menu-content w-100">
+                                <div class="container-fluid px-0 px-lg-3">
                                     <div class="row">
                                         <div class="col-lg-3 col-sm-12 prop">
                                             <h3 class="h5 mb-4 fw-bold">Featured Properties</h3>
@@ -258,6 +259,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item mx-3 my-1 position-relative">
